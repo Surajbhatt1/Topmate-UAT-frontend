@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topmate Sessions - Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html"><span class="brand-mark"><i class="bi bi-lightning-charge-fill"></i></span>Topmate Sessions</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1 mt-3 mt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="Contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-gradient rounded-pill px-4" href="Services.html">Book Now</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-eyebrow"><i class="bi bi-envelope-heart-fill"></i> Contact us</span>
+        <h1>Need help choosing a session or planning your next step?</h1>
+        <p class="mt-4">Send a message, call us, or use the support details below. We will help you find the right session for your goal.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-md-4 reveal">
+          <div class="contact-card p-4">
+            <div class="icon-box soft mb-4"><i class="bi bi-telephone-fill"></i></div>
+            <h5>Mobile number</h5>
+            <p class="text-muted mb-0">+91 9876543210</p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="contact-card p-4">
+            <div class="icon-box soft mb-4"><i class="bi bi-envelope-fill"></i></div>
+            <h5>Email address</h5>
+            <p class="text-muted mb-0">support@topmatesessions.com</p>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="contact-card p-4">
+            <div class="icon-box soft mb-4"><i class="bi bi-geo-alt-fill"></i></div>
+            <h5>Office address</h5>
+            <p class="text-muted mb-0">Topmate Sessions, Sector 62, Noida, Uttar Pradesh, India</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-7 reveal">
+          <div class="contact-card p-4 p-lg-5">
+            <h2 class="fw-bold mb-3">Send us a message</h2>
+            <p class="text-muted mb-4">Share your question and we will respond with the next best step.</p>
+            <form class="needs-validation" id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="fullName" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="fullName" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="contactEmail" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="contactEmail" required>
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="contactPhone" class="form-label">Mobile Number</label>
+                  <input type="tel" class="form-control" id="contactPhone" pattern="[0-9]{10}" required>
+                  <div class="invalid-feedback">Please enter a valid 10-digit mobile number.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="topic" class="form-label">Topic</label>
+                  <select class="form-select" id="topic" required>
+                    <option value="" selected disabled>Select topic</option>
+                    <option>Booking support</option>
+                    <option>Service recommendation</option>
+                    <option>Payment question</option>
+                    <option>Partnership</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a topic.</div>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="5" required></textarea>
+                  <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-gradient rounded-pill px-5 mt-4">Submit Message</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-5 reveal">
+          <div class="d-grid gap-4">
+            <div class="contact-card p-4">
+              <h5>Support details</h5>
+              <p class="text-muted mb-3">Our support team can help with session selection, booking changes, mentor availability, and general platform questions.</p>
+              <div class="d-grid gap-2 text-muted">
+                <span><i class="bi bi-clock-fill text-primary me-2"></i>Monday to Saturday, 10:00 AM - 7:00 PM</span>
+                <span><i class="bi bi-headset text-primary me-2"></i>Average reply time: within 24 hours</span>
+                <span><i class="bi bi-camera-video-fill text-primary me-2"></i>Sessions available online</span>
+              </div>
+            </div>
+            <div class="contact-card p-4">
+              <h5>Social media</h5>
+              <p class="text-muted">Follow updates, tips, and service announcements.</p>
+              <div class="d-flex gap-2">
+                <a class="social-link bg-primary text-white" href="https://www.linkedin.com" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a class="social-link bg-primary text-white" href="https://www.instagram.com" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a class="social-link bg-primary text-white" href="https://x.com" aria-label="Twitter X"><i class="bi bi-twitter-x"></i></a>
+                <a class="social-link bg-primary text-white" href="https://www.youtube.com" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-eyebrow"><i class="bi bi-map-fill"></i> Google Maps</span>
+        <h2 class="section-title">Find our office location</h2>
+        <p class="section-copy">This embedded map points to Noida Sector 62, where our support office is listed.</p>
+      </div>
+      <div class="reveal">
+        <iframe class="map-frame" title="Topmate Sessions office map" loading="lazy" allowfullscreen src="https://www.google.com/maps?q=Sector%2062%20Noida%20Uttar%20Pradesh%20India&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer pt-5 pb-4">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between gap-3">
+        <div><a class="navbar-brand text-white" href="Home.html"><span class="brand-mark"><i class="bi bi-lightning-charge-fill"></i></span>Topmate Sessions</a><p class="mt-3 mb-0">We are here to help you choose and book the right expert session.</p></div>
+        <div class="d-flex gap-3 align-items-start"><a href="Home.html">Home</a><a href="Services.html">Services</a><a href="About.html">About</a></div>
+      </div>
+      <hr class="border-secondary my-4">
+      <small>&copy; 2026 Topmate Sessions. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <div class="position-fixed top-0 end-0 p-3" style="z-index: 1080">
+    <div id="contactToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body"><i class="bi bi-check-circle-fill me-2"></i>Your message has been submitted successfully.</div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    const contactForm = document.getElementById("contactForm");
+    const contactToast = new bootstrap.Toast(document.getElementById("contactToast"), { delay: 3500 });
+
+    contactForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (!contactForm.checkValidity()) {
+        contactForm.classList.add("was-validated");
+        return;
+      }
+
+      contactToast.show();
+      contactForm.reset();
+      contactForm.classList.remove("was-validated");
+    });
+  </script>
+</body>
+</html>
