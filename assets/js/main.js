@@ -13,8 +13,8 @@ const bookingForm = document.getElementById("bookingForm");
 const selectedService = document.getElementById("selectedService");
 const preferredDate = document.getElementById("preferredDate");
 const successToastElement = document.getElementById("successToast");
-// const API_BASE_URL = "http://localhost:9000/api";
-const API_BASE_URL = "https://topmate-uat-backend.vercel.app/api/bookings";
+const API_BASE_URL = "http://localhost:9000/api";
+// const API_BASE_URL = "https://topmate-uat-backend.vercel.app/api/bookings";
 
 if (preferredDate) {
   preferredDate.min = new Date().toISOString().split("T")[0];
